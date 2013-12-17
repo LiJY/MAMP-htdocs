@@ -1,6 +1,6 @@
 <body>
 	<div id="mainWindow">
-	<div id="leftArea">		
+	<div id="leftArea">
 	<p id="title">Select your indicator</p>
 	<div id="listHead">List of indicator</div>
 	<?php $this->RenderContent("indicatorListing"); ?>
@@ -29,6 +29,7 @@
 				<?php // $this->RenderContent("restrictions"); ?>
 				!-->
 				<?php $this->RenderContent("display"); ?>
+				<!-- commandaire -->
 				<?php $this->RenderContent("buttons"); ?>
 		</div>
 	</div>
