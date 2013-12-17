@@ -29,7 +29,6 @@
 				<?php // $this->RenderContent("restrictions"); ?>
 				!-->
 				<?php $this->RenderContent("display"); ?>
-				<!-- commandaire -->
 				<?php $this->RenderContent("buttons"); ?>
 		</div>
 	</div>
