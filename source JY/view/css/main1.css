@@ -1,0 +1,146 @@
+body
+{
+    width: 1200px;
+    background-color: White;
+    margin: 0 auto;
+}
+
+#mainTable
+{
+    width: inherit;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+#mainTable tr td
+{
+    padding: 10px;
+}
+#indicatorSelection
+{
+    width: 28%;
+    border: 1px solid red;
+    height: 800px;
+    padding: 0;
+    margin: 0px auto;
+    
+}
+#tabs
+{
+    width: 34%;
+    border: 1px solid yellow;
+}
+#welcome
+{
+    width: 34%;
+    border: 1px solid black;
+}
+#dataDisplay
+{
+    width: 68%;
+    border: 2px solid blue;
+    border-radius: 7px;
+}
+
+#menuTab{
+    border-spacing: 0;
+}
+
+.tab
+{
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    background-color: #999999;
+    border: solid 2px #999999;
+    border-radius: 3px;
+    color: #FFFFFF;
+    position: relative;
+    bottom: -14px;
+
+}
+
+.selectedTab
+{
+    text-align: center;
+    background-color: #FFFFFF;
+    /*padding-bottom: 20px !important;*/
+    border: solid 2px #999999;
+    border-radius: 3px;
+    color: #000000;
+    position: relative;
+}
+
+
+.title{
+    border-radius: 8px;
+    border: solid red;
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    top: 3px;
+    width: 21%;
+}
+/*
+#listIndicator{
+    border: dashed 3px red;
+}
+*/
+#listIndicator select{
+    border:solid 3px #999999;
+    margin: 0px auto;
+    width: 23%;
+    font-size: 25px;
+    position: absolute; 
+    top: 66px;
+    padding-bottom: 10px;
+}
+#navButton{
+    position: relative;
+    margin-top: 200px;
+}
+.listButton{
+    height: 35px;
+    
+    background-color: #FFFFFF;  
+    border-radius: 4px;
+    position: relative;
+    margin-top: 10px;
+    top: 1px;
+}
+#createIndicator{
+    display: block;
+    width: 100%;
+}
+#modifyButton{
+    display: inline-block;
+    width: 45%;
+}
+#deleteButton{
+    display: inline-block;
+    width: 45%;
+    float: right;
+}
+
+
+#expose{
+    position: absolute;
+    bottom: 0;
+    width: 23%;
+}
+#exposeButton{
+    width: 100%;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#loginButton{
+    float: right;
+    background-color:#000000 ;
+    color: #FFFFFF;
+    border-radius: 8px;
+    width: 30%;
+    padding: 10px;  
+    
+}

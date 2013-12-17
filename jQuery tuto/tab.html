@@ -1,0 +1,142 @@
+<html>
+	<head>
+	<meta charset="utf-8" />
+	<script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+	<script type='text/javascript' src='script.js'></script>
+	<script type="text/javascript" src="jquery-ui-1.10.2/ui/minified/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="jquery.multiselect.js"></script>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="jquery-ui-1.10.2/themes/base/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="jquery.multiselect.css">
+	</head>
+
+	<body>
+		<ul class="tabs">
+				<li><a href="#tab1">Header1</a></li>
+				<li><a href="#tab2">Header2</a></li>
+		</ul>
+			<div class="tabContent">
+				<div id="tab1" class="tabBody">content for header1</div>
+				<div id="tab2" class="tabBody">content for header2</div>
+			</div>
+
+<select class="colonne" name="col1" multiple>
+<option value="1">Option 1</option>
+<option value="2">Option 2</option>
+<option value="3">Option 3</option>
+<option value="4">Option 4</option>
+<option value="5">Option 5</option>
+<option value="6">Option 6</option>
+<option value="7">Option 7</option>
+<option value="8">Option 8</option>
+<option value="9">Option 9</option>
+<option value="10">Option 10</option>
+</select>
+
+<input type="radio" name="quux[2]" id="baz[1]" checked>
+<label for="baz[1]">All periode</label>
+
+
+<input type="radio" name="quux[2]" id="baz[2]">
+<label for="baz[2]">
+from: 
+<select class="comboboc">
+  <option value="2000">2000</option>
+  <option value="2001">2001</option>
+  <option value="2002">2002</option>
+  <option value="2003">2003</option>
+</select>
+to:
+<select class="comboboc">
+  <option value="2000">2000</option>
+  <option value="2001">2001</option>
+  <option value="2002">2002</option>
+  <option value="2003">2003</option>
+</select>
+</label>
+
+<input type="radio" name="quux[2]" id="baz[1]" checked>
+<label for="baz[1]">
+	<select class="colonne" multiple>
+<option value="1">Option 1</option>
+<option value="2">Option 2</option>
+<option value="3">Option 3</option>
+<option value="4">Option 4</option>
+<option value="5">Option 5</option>
+<option value="6">Option 6</option>
+<option value="7">Option 7</option>
+<option value="8">Option 8</option>
+<option value="9">Option 9</option>
+<option value="10">Option 10</option>
+</select>
+</label>
+
+<select class="combobox">
+  <option value="2000">2000</option>
+  <option value="2001">2001</option>
+  <option value="2002">2002</option>
+  <option value="2003">2003</option>
+</select>
+
+<table border="1">
+<tr>
+<td>row 1, cell 1 a</td>
+<td>row 1, cell 2 b</td>
+</tr>
+</table>
+
+<table border="1">
+	<tr>
+  	<td>555 77 854</td>
+</tr>
+<tr>
+  <td>555 77 855</td>
+</tr>
+</table>
+ <div id="uploader">
+    <p>Upload Files:</p>
+    
+    <a id="pickfiles" href="javascript:;">Add Files</a>
+    <a id="uploadfiles" href="javascript:;">Start Upload</a> 
+
+</div>
+
+  <select id="fff" multiple>
+<option value="1">Option 1</option>
+<option value="2">Option 2</option>
+<option value="3">Option 3</option>
+<option value="4">Option 4</option>
+<option value="5">Option 5</option>
+<option value="6">Option 6</option>
+<option value="7">Option 7</option>
+<option value="8">Option 8</option>
+<option value="9">Option 9</option>
+<option value="10">Option 10</option>
+</select>
+
+<script type="text/javascript">
+//<![CDATA[
+
+    var uploader = new plupload.Uploader({
+        runtimes: 'flash',
+        flash_swf_url: 'js/plupload.flash.swf',
+        browse_button: 'pickfiles',
+        container: 'uploader',
+        url: 'upload.php'
+    });
+    
+    uploader.init();
+    
+    document.getElementById('uploadfiles').onclick = function() {
+        uploader.start();
+    };
+
+    $("#fff").dropdownchecklist({ emptyText: "Please select ...", width: 150 }); 
+
+//]]>
+</script>
+
+
+	</body>
+</html>

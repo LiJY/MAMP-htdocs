@@ -1,0 +1,12 @@
+div {
+	background-color: red;
+	/*font-size: 211px;*/
+	width: 120px;
+	height: 120px;
+	border-style: solid;
+	border-color: #ff00ff;
+}
+
+h1{
+	color: red;
+}

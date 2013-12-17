@@ -1,0 +1,6 @@
+lon	lat	title	description	icon
+1.347	47.580	Quartier de la Bouillie	Quartier en voie de demolition	marker_red.png
+1.351	47.579	Velodrome	le Velodrome de la ville de Blois	marker_red.png
+1.353	47.591	Le deversoir	zone ou la levee est plus basse, c'est la que la Loire debordera en cas de crue	marker_blue.png
+1.352	47.587	Terrains de Sport	plusieurs terrains de Foot	marker_red.png
+

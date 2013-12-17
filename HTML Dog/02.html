@@ -1,0 +1,167 @@
+<html>
+<head>
+	<title>My seconde web page</title>
+	<style>
+	td,th{
+		border: solid 1px black;
+	}
+	input[type=email]:valid { background: green }
+	input[type=email]:invalid { background: red }
+	</style>
+</head>
+<body>
+
+	<table>
+		<tr>
+			<td>Row 1, cell 1</td>
+			<td>Row 1, cell 2</td>
+			<td>Row 1, cell 3</td>
+		</tr>
+		<tr>
+			<td>Row 2, cell 1</td>
+			<td>Row 2, cell 2</td>
+			<td>Row 2, cell 3</td>
+		</tr>
+		<tr>
+			<td>Row 3, cell 1</td>
+			<td>Row 3, cell 2</td>
+			<td>Row 3, cell 3</td>
+		</tr>
+		<tr>
+			<td>Row 4, cell 1</td>
+			<td>Row 4, cell 2</td>
+			<td>Row 4, cell 3</td>
+		</tr>
+	</table>
+
+	<table>
+		<tr>
+			<th>Table heading 1</th>
+			<th>Table heading 2</th>
+			<th>Table heading 3</th>
+		</tr>
+		<tr>
+			<td>Row 2 Cell 1</td>
+			<td colspan="3">Row 2 Cell 2 colspan 2</td>
+		</tr>
+		<tr>
+			<td rowspan="2">Row 3, cell 1, also spanning Row 4, cell 1</td>
+			<td>Row 3, cell 2</td>
+			<td>Row 3, cell 3</td>
+		</tr>
+		<tr>
+			<td>Row 4 Cell 1</td>
+			<td>Row 4 Cell 2</td>
+		</tr>
+	</table>
+	<h3>Adress</h3>
+	<address>
+		<ul>
+			<li>1123123</li>
+			<li>adsfasdf@adsfasdf.com</li>
+			<li>10 Rue de vendome</li>
+			<li>41000</li>
+			<li>BLOIS</li>
+		</ul>
+	</address>
+	<bdo dir="rtl">jianyang</bdo>
+	<p>I have decided to <del datetime="2013-01-26">decrease</del> <ins cite="http://www.icecreamforall.com/changeofpolicy/">increase</ins> the amount of free ice cream that the State will provide for its citizens.</p>
+	<article>
+		<header>
+			<h1>Alternatively&hellip;</h1>
+			<p>[An introduction]</p>
+		</header>
+		<section id="main_content">
+			<p>[Content]</p>
+		</section>
+		<footer>
+			<p>[End notes]</p>
+		</footer>
+	</article>
+	<footer>
+		<p>[Copyright bumf]</p>
+	</footer>
+	<nav id="main_nav">
+		<ul>
+			<li><a href="/tutorials/">Tutorials</a></li>
+			<li><a href="/reference/">Reference</a></li>
+			<li><a href="/articles/">Articles</a></li>
+			<li><a href="/about/">About us</a></li>
+		</ul>
+	</nav>
+	<p>He wants to play with his <mark>Legos</mark></p>
+	<table>
+		<colgroup>
+		<col>
+		<col class="alternative">
+		<col>
+	</colgroup>
+	<tr>
+		<td>This</td>
+		<td>That</td>
+		<td>The other</td>
+	</tr>
+	<tr>
+		<td>Ladybird</td>
+		<td>Locust</td>
+		<td>Lunch</td>
+	</tr>
+</table>
+<ul>
+	<li><a href="here.html" tabindex="1">Here</a></li>
+	<li><a href="there.html" tabindex="3">There</a></li>
+	<li><a href="limbo.html" tabindex="2">Limbo</a></li>
+</ul>
+<select name="country">
+	<optgroup label="Africa">
+		<option value="gam">Gambia</option>
+		<option value="mad">Madagascar</option>
+		<option value="nam">Namibia</option>
+	</optgroup>
+	<optgroup label="Europe">
+		<option value="fra">France</option>
+		<option value="rus">Russia</option>
+		<option value="uk">UK</option>
+	</optgroup>
+	<optgroup label="North America">
+		<option value="can">Canada</option>
+		<option value="mex">Mexico</option>
+		<option value="usa">USA</option>
+	</optgroup>
+</select>
+<input type="search" name="search">
+<input type="tel" name="telephone_number">
+<input type="url" name="web_address">
+<input type="email" name="email_address">
+<br>
+<input name="color" type="color" value="#ff8800">
+<label for="email_address">Email address</label>
+<input type="email" placeholder="you@somewhere.com" name="email_address" id="email_address">
+<input name="query" autofocus>
+<br>a
+<input name="country" list="country_name">
+<datalist id="country_name">
+    <option value="Afghanistan">
+    <option value="Albania">
+    <option value="Algeria">
+    <option value="Andorra">
+    <option value="Armenia">
+    <option value="Australia">
+    <option value="Austria">
+    <option value="Azerbaijan">
+    <!-- etc. -->
+</datalist>
+<br>
+<video src="kitties.mp4" controls></video>
+<br>
+
+<canvas id="wittykitty" width="800" height="450">
+    <!-- Fall-back content here, just like with video and audio -->
+</canvas>
+<script>
+    var canvas = document.querySelector('canvas'),
+        ctx = canvas.getContext('2d');
+    ctx.fillRect(10, 10, 10, 10);
+</script>
+</body>
+</html>

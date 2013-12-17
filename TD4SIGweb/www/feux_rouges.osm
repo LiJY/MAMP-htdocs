@@ -1,0 +1,100 @@
+<osm version="0.6" generator="Osmosis SNAPSHOT-r26564">
+<node id="61706010" version="10" timestamp="2010-02-27T12:15:46Z" uid="191786" user="bulzor14" changeset="3987874" lat="47.5780755" lon="1.3210442">
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="205048901" version="22" timestamp="2011-09-18T15:12:22Z" uid="84263" user="Robert Whittaker" changeset="9333742" lat="47.5862126" lon="1.3363923">
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="205049763" version="16" timestamp="2011-09-18T15:12:22Z" uid="84263" user="Robert Whittaker" changeset="9333742" lat="47.5858717" lon="1.3358218">
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="205054763" version="4" timestamp="2012-03-28T15:32:26Z" uid="639695" user="LAKRABTI77" changeset="11128194" lat="47.5811082" lon="1.3434874">
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="248842454" version="4" timestamp="2008-02-23T08:02:56Z" uid="9527" user="lluc" changeset="186406" lat="47.6057123" lon="1.3130658">
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="248842455" version="5" timestamp="2008-02-23T08:09:19Z" uid="9527" user="lluc" changeset="186406" lat="47.6053825" lon="1.3134177">
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="278762587" version="3" timestamp="2010-11-25T12:09:42Z" uid="363352" user="Lyrn" changeset="6453997" lat="47.604645" lon="1.3512986">
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="281342188" version="1" timestamp="2008-07-27T00:20:46Z" uid="9527" user="lluc" changeset="608209" lat="47.5975405" lon="1.3492835">
+<tag k="created_by" v="JOSM"/>
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="281342575" version="6" timestamp="2011-09-17T15:29:55Z" uid="337375" user="Rom1" changeset="9324790" lat="47.5920725" lon="1.3369506">
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="281342577" version="4" timestamp="2011-06-21T21:43:46Z" uid="456113" user="eric_G" changeset="8509224" lat="47.5914953" lon="1.336211">
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="281342578" version="5" timestamp="2011-06-21T21:43:46Z" uid="456113" user="eric_G" changeset="8509224" lat="47.5903748" lon="1.3346438">
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="281344119" version="3" timestamp="2008-09-25T10:58:28Z" uid="9527" user="lluc" changeset="695732" lat="47.607316" lon="1.2732172">
+<tag k="created_by" v="JOSM"/>
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="281988400" version="3" timestamp="2011-09-17T15:29:55Z" uid="337375" user="Rom1" changeset="9324790" lat="47.5935964" lon="1.3344702">
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="281989920" version="1" timestamp="2008-07-29T17:13:49Z" uid="9527" user="lluc" changeset="621886" lat="47.5950173" lon="1.3290473">
+<tag k="created_by" v="JOSM"/>
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="282704787" version="8" timestamp="2011-09-18T15:33:39Z" uid="84263" user="Robert Whittaker" changeset="9333961" lat="47.5859439" lon="1.3298403">
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="282704847" version="3" timestamp="2011-09-18T15:33:39Z" uid="84263" user="Robert Whittaker" changeset="9333961" lat="47.5860598" lon="1.3299309">
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="282705077" version="5" timestamp="2011-06-22T07:45:32Z" uid="456113" user="eric_G" changeset="8511654" lat="47.5865235" lon="1.3305723">
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="282705144" version="4" timestamp="2011-06-22T07:45:31Z" uid="456113" user="eric_G" changeset="8511654" lat="47.5871352" lon="1.3318029">
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="282705499" version="3" timestamp="2009-04-08T11:02:19Z" uid="9527" user="lluc" changeset="317487" lat="47.5866797" lon="1.335154">
+<tag k="crossing" v="traffic_signals"/>
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="286314905" version="3" timestamp="2010-04-11T16:26:56Z" uid="191786" user="bulzor14" changeset="4395700" lat="47.5891464" lon="1.3311634">
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="286314908" version="2" timestamp="2010-04-11T16:44:50Z" uid="191786" user="bulzor14" changeset="4395931" lat="47.5855559" lon="1.3245269">
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="367711423" version="2" timestamp="2011-09-17T15:29:56Z" uid="337375" user="Rom1" changeset="9324790" lat="47.5948147" lon="1.335956">
+<tag k="highway" v="traffic_signals"/>
+<tag k="source" v="survey"/>
+</node>
+<node id="369224069" version="2" timestamp="2009-06-27T15:17:31Z" uid="9065" user="brianboru" changeset="1650368" lat="47.5840317" lon="1.3391336">
+<tag k="highway" v="traffic_signals"/>
+<tag k="source" v="survey"/>
+</node>
+<node id="370772084" version="2" timestamp="2009-04-08T11:02:21Z" uid="9527" user="lluc" changeset="317487" lat="47.5871544" lon="1.3344388">
+<tag k="highway" v="traffic_signals"/>
+<tag k="source" v="cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour :2008"/>
+</node>
+<node id="595536452" version="3" timestamp="2011-12-01T10:49:26Z" uid="13312" user="JulienM" changeset="10006910" lat="47.5836665" lon="1.3237059">
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="695826313" version="1" timestamp="2010-04-13T20:53:31Z" uid="191786" user="bulzor14" changeset="4417774" lat="47.6001462" lon="1.3197194">
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="710725553" version="4" timestamp="2011-09-10T19:22:40Z" uid="86289" user="Gustry" changeset="9264401" lat="47.5899398" lon="1.3419289">
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="999323813" version="3" timestamp="2011-10-21T14:36:04Z" uid="420883" user="joedalton85" changeset="9616804" lat="47.595059" lon="1.388641">
+<tag k="highway" v="traffic_signals"/>
+</node>
+<node id="1168854296" version="3" timestamp="2011-09-17T15:29:55Z" uid="337375" user="Rom1" changeset="9324790" lat="47.5971983" lon="1.3427968">
+<tag k="highway" v="traffic_signals"/>
+<tag k="source" v="survey"/>
+</node>
+<node id="1532583515" version="2" timestamp="2011-12-09T14:37:19Z" uid="292856" user="correlane" changeset="10073478" lat="47.6089156" lon="1.2677702">
+<tag k="highway" v="traffic_signals"/>
+</node>
+</osm>

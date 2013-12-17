@@ -1,0 +1,162 @@
+#mainWindow{
+	width: 1200px;
+	margin:0 auto;
+
+}
+
+#leftArea{
+	/*border: solid 2px red;*/
+	width: 280px;
+	height: 720px;
+	float: left;
+	display: inline-block;
+}
+
+#title{
+	text-align: center;
+	font-size: 25px;
+	font-weight: 900;
+}
+
+#listHead{
+	border: solid 2px #999999;
+	border-radius: 2px;
+	font-size: 18px;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+/*
+div {
+	border: 0;
+	font-size: 18px;
+	margin:0 auto;
+	padding: 0;
+}
+
+div select{
+	border: 0;
+	width: 100px;
+	font-size: 18px;
+	margin:0 auto;
+	padding: 0 0 0 0;
+	top: 10px;
+}
+*/
+#listIndicator div ul{
+	margin-top: 0;
+	margin-bottom: 0;
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	width: 270px;
+}
+
+#listIndicator div ul li{
+	display: block;
+	width: 270px;
+	border: 0;
+	margin: 3px; 
+}
+ #listIndicator div ul .ui-selecting { background: #4074FE; }
+ #listIndicator div ul .ui-selected { background: #0143F0; color: white; }
+
+#createIndicatorButton{
+ 	width: 270px;
+ 	height: 35px;
+ 	margin:0 auto;
+ 	margin-top: 20px;
+ 	font-size: 18px;
+ 	display: block;
+ }
+
+#modifyButton{
+	width: 130px;
+ 	height: 35px;
+ 	margin-left: 5px;
+ 	margin-top: 5px;
+ 	font-size: 18px;
+ 	display: inline-block;
+ }
+
+#deleteButton{
+	width: 130px;
+ 	height: 35px;
+ 	margin-top: 5px;
+ 	margin-right: 5px;
+ 	font-size: 18px;
+ 	display: inline-block;
+ 	float: right;
+ }
+#setGlobalButton{
+ 	width: 270px;
+ 	height: 35px;
+ 	margin:0 auto;
+ 	margin-top: 20px;
+ 	font-size: 18px;
+ 	display: block;
+ }
+
+ #creatCategoryButton{
+ 	width: 270px;
+ 	height: 35px;
+ 	margin:0 auto;
+ 	margin-top: 20px;
+ 	font-size: 18px;
+ 	display: block;
+ }
+
+#exposeButton{
+	width: 270px;
+ 	height: 35px;
+ 	margin-left: 4px;
+ 	margin-top: 210px;
+ 	position: relative;
+ 	bottom: 145px;
+ 	font-size: 18px;
+ 	color: #FFFFFF;
+ 	background-color: #333333;
+ 	display: block;
+ }
+
+#tabs{
+	height: 50px;
+	width: 500px;	
+	border: solid 2px yellow;
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 10px;
+	margin-bottom: -1px
+}
+#welcome{
+	height: 50px;
+	width: 370px;
+	/*
+	border: solid 2px black;	
+	*/
+	display: inline-block;
+	float: right;
+}
+
+#loginButton{
+	float: right;
+	width: 130px;
+	height: 35px;
+	border-radius: 7px;
+	font-size: 18px;
+	color: #FFFFFF;
+	background-color: #333333;
+	margin-top: 6px;
+	margin-right: 6px;
+}
+
+#dataDisplay{
+	/*
+	border: solid 2px blue;
+	*/
+	height: 700px;
+	width: 900px;
+	position: relative;
+	float: right;
+}
